@@ -1,0 +1,117 @@
+  114  git init
+  115  git commit -m "first commit"
+  120  git init 
+  121  git add README.md
+  122  git commit -m "first commit"
+  123  git branch -M main
+  124  git init 
+  127  git init 
+  128  git add test
+  130  git add test
+  131  git --version
+  135  git commit -m "first commit"
+  136  git branch -M main 
+  139  git status
+  140  git add test
+  141  git status
+  143  git remote add origin git@github.com:Weakne55/SeminarsTest.git
+  144  git remote -v
+  145  git status
+  147  git push -u origin main
+  153  history | grep git
+  218  git checkout -b homework2
+  220  git checkout -b homework2
+  234  git add find_key.sh describe.txt
+  235  git commit -m "Task 1: Script to find secret key and /dev/null explanation"
+  254  git add datascience_env.yml conda_report.txt
+  255  git commit -m "Task 2: Conda environment with bio_advanced"
+  277  echo "ClinicalTrial2026/" > .gitignore
+  278  git add project_init.sh .gitignore
+  279  git commit -m "Task 3: Project initialization script with .gitignore"
+  289  git add organizer.sh
+  290  git commit -m "Task 4: Script to create fastq files"
+  306  git add file_manager.sh find.txt
+  307  git commit -m "Task 5: File manager script with conditional logic"
+  318  git add greeter.sh output.txt
+  319  git commit -m "Task 6: Greeter script with argument validation"
+  322  git commit --allow-empty -m "Task 7: Added rm alias with confirmation. Answer for 7d: To make alias work for all users, add it to /etc/bash.bashrc or /etc/profile"
+  325  git add users.txt
+  326  git commit -m "Task 8: w and id commands output. id displays user identity information including UID, GID, and group memberships"
+  329  git add variable_check.txt
+  330  git commit -m "Task 9: Global variable LINUXINFO created"
+  334  git add ps1_backup.txt screenshot_note.txt
+  335  git commit -m "Task 10: PS1 customization and backup"
+  336  git push origin homework2
+  339  git clone https://github.com/Weakne55/Bioinformatics305.git
+  341  git remote remove origin
+  342  git remote add origin https://github.com/JosefSweik/bioinf_2026
+  343  git status
+  345  git status
+  346  git add raw_data/
+  347  git status
+  348  git commit -m "Cleanup temp files!"
+  352  git checkout -b investigation
+  354  git add infected_reads.txt
+  355  git status
+  356  git commit -m "Add infected reads from sequence"
+  357  git status
+  358  git branch
+  368  git add mini_run.fastq
+  369  git status
+  370  git commit -m "Add mini_run: first and last 50 strings"
+  371  git status
+  377  git status 
+  378  git checkout  experiment.log 
+  379  git checkout experiment.log 
+  380  echo "git checkout experiment.log" > command.txt
+  381  git checkout main
+  382  git branch
+  389  git status
+  390  git checkout experiment.log
+  391  echo "git checkout experiment.log" > command.txt
+  394  git checkout main
+  396  git branch
+  397  git switch master
+  398  git branch 
+  399  git checkout main
+  400  git checkout master
+  401  git checkout investigation 
+  402  git branch 
+  403  git checkout lab_disaster/experiment.log
+  405  git checkout master
+  406  git branch 
+  407  git add command.txt
+  408  git commit -m "Restored experiment.log"
+  409  git status 
+  413  git add access.log sort.txt
+  414  git commit -m "Add sort.txt with sorted users"
+  415  git merge investigation
+  416  git status 
+  417  git branch
+  418  git merge investigation
+  419  git status 
+  424  git add genes.tsv genes_fixed.csv
+  425  git status 
+  426  git commit -m "Convert genes to fixed_genes"
+  427  git status 
+  428  git checkout cleaning 
+  429  git -b checkout cleaning 
+  430  git checkout -b cleaning 
+  433  git add diskusage.file 
+  434  git commit -m "Add disk usage for large file"
+  435  git status
+  436  git checkout master 
+  438  git add somefile.txt
+  439  git commit -m "Add some file"
+  440  git log --oneline -l | cut -c1-4 > hash.txt
+  443  git log --oneline -l | cut -c1-4 > hash.txt
+  444  git log --oneline -1 | cut -c1-4 > hash.txt
+  448  git add forgotten.txt
+  449  git commit --amend --no-edit
+  450  git log --online -3
+  451  git log --oneline -3
+  453  git add hash.txt forgotten.txt amend.txt
+  454  git commit -m "Add hash, forgotten file and amend file"
+  455  git status 
+  456  git history
+  458  history | grep git > report_commands.txt
